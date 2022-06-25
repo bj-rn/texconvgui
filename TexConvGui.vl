@@ -814,7 +814,7 @@
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="TqM67JmBMAdLIY8Lb0pwCI" Comment="" Bounds="613,544,90,17" ShowValueBox="true" isIOBox="true" Value="Adressing Mode">
+                  <Pad Id="TqM67JmBMAdLIY8Lb0pwCI" Comment="" Bounds="613,544,90,17" ShowValueBox="true" isIOBox="true" Value="Addressing Mode">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -13356,7 +13356,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="HitOchbBnp7Nhnp8ieD7un" Name="Bounds" Kind="InputPin" DefaultValue="1098, 74, 610, 697" />
+            <Pin Id="HitOchbBnp7Nhnp8ieD7un" Name="Bounds" Kind="InputPin" DefaultValue="2244, 350, 610, 697" />
             <Pin Id="TYt0shqefyjLRBbAPLnz54" Name="Bound to Document" Kind="InputPin" />
             <Pin Id="VC0YJAwtWprOh1WxVjkHlK" Name="Input" Kind="InputPin" />
             <Pin Id="RkK5C1m1yeqMzkhdADpheG" Name="Color" Kind="InputPin" DefaultValue="0, 0, 0, 1" />
