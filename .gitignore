@@ -3,7 +3,7 @@
 .vl/
 
 # Build folder
-lib/
+# lib/
 
 
 ## Ignore Visual Studio temporary files, build results, and
