@@ -804,7 +804,7 @@
                     <Pin Id="G38oS1bt6VgQBATZ4SM917" Name="Hovered" Kind="OutputPin" />
                     <Pin Id="SjKU9nHdNNJPRzmHQwzNjV" Name="Value" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="FMUaJmoewvSMjVY12QuYLE" Comment="" Bounds="992,561,95,15" ShowValueBox="true" isIOBox="true" Value="##AdressingMode">
+                  <Pad Id="FMUaJmoewvSMjVY12QuYLE" Comment="" Bounds="992,561,95,15" ShowValueBox="true" isIOBox="true" Value="##AddressingMode">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
