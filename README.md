@@ -14,3 +14,6 @@ Latest known working commit is [6d399d62af2d1c74e1f49b6db75f5e9e937b8cf8](https:
 
 Unfortunately exporting seems to be broken in the used vvvv version, so no compiled binary can be provided.
 To get the patch to run, follow the installation instructions of VL.ImGui first.
+
+Afterwards clone or download the TexConvGui repo.
+Now start vvvv with `--package-repositories path\to\your-vl-libs` and then open *TexConvGui.vl*.
