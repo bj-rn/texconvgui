@@ -7,7 +7,7 @@ Build with vvvv, the visual live-programming environment for .NET
 Download: http://visualprogramming.net
 
 
-It's based on a preview version of vvvv that introduces .net6 (v 2022.5.0-0101) 
+It's based on a preview version of vvvv that introduces .net6 (v 2022.5) 
 and makes use of the bleeding edge [VL.ImGui](https://github.com/vvvv/VL.ImGui) library.
 
 So while fully working now, it should be considered highly experimental, any update to VL.ImGui  will likely break stuff.
