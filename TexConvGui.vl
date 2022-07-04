@@ -13447,5 +13447,5 @@
   <PlatformDependency Id="BUufZ2o35nwPQ4bOebvnyw" Location="System.Windows.Forms" />
   <PlatformDependency Id="Lt4esJOezfqOILGApGpXQ5" Location="System.Diagnostics.Process" />
   <PlatformDependency Id="AlkZTsO1kf8OoinPZgW0Rz" Location="System.Runtime" />
-  <PlatformDependency Id="TVMtxbJD83mQZ2iXTsWwT4" Location="./lib/net6.0-windows/TexConvGui.dll" />
+  <PlatformDependency Id="TVMtxbJD83mQZ2iXTsWwT4" Location="./lib/net6.0-windows/TexConvGuiHelper.dll" />
 </Document>
