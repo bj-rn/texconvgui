@@ -4617,15 +4617,15 @@
                 </Patch>
                 <Patch Id="PmN9AX5Iy4GQOPtJlbNPIY" Name="BehaviourSubject">
                   <Pin Id="NvljT1F3SkSPnMnXRBlYOa" Name="Value" Kind="OutputPin" />
-                  <Pin Id="VkuvZvyZgXELhM2yJuGxEE" Name="Context" Kind="InputPin" />
-                  <Pin Id="PdMo442HPkyQc585Em4XwP" Name="Channel" Kind="InputPin" />
-                  <Pin Id="A9HGrUGOCdNPikrZ52XdL2" Name="Label" Kind="InputPin" />
-                  <Pin Id="NuIRdYHb1ZPQULv1WYMcv7" Name="Items" Kind="InputPin" />
-                  <Pin Id="Hf2ZDewzVxsOnRTt28RNdB" Name="Format" Kind="InputPin" />
-                  <Pin Id="C23g4WiFPcKPWKEoO7OuLN" Name="Flags" Kind="InputPin" />
-                  <Pin Id="O5V3QiniqEINu5CNyltF8m" Name="Style" Kind="InputPin" />
-                  <Pin Id="PG76nQSYZgHLmbxUsMSDMl" Name="Context" Kind="OutputPin" />
-                  <Pin Id="HUcohSg7N9nO9RR9XRnYTB" Name="Bang" Kind="OutputPin" />
+                  <Pin Id="OMHHflPcitjQOiEVe7AeO8" Name="Context" Kind="InputPin" />
+                  <Pin Id="Ox82GSjPXpHLgxGNIy5GK8" Name="Channel" Kind="InputPin" />
+                  <Pin Id="GIIJthJIC7MNwAPvAZ5GPY" Name="Label" Kind="InputPin" />
+                  <Pin Id="Q9LQew4M05RL6AUUyZEVpg" Name="Items" Kind="InputPin" />
+                  <Pin Id="BRpfoXLLlHPO1r3LTPvTHf" Name="Format" Kind="InputPin" />
+                  <Pin Id="EUMcvpVkoDkOoOA8SSzWaq" Name="Flags" Kind="InputPin" />
+                  <Pin Id="FSFenMD9AwhMuHM0ESHHL8" Name="Style" Kind="InputPin" />
+                  <Pin Id="LJ7dafJl09wMYJeEWn7r1l" Name="Context" Kind="OutputPin" />
+                  <Pin Id="Q9YheOFrEUpQZc0LaMxjnN" Name="Bang" Kind="OutputPin" />
                 </Patch>
               </Patch>
             </Node>
@@ -4963,7 +4963,7 @@
               <Pin Id="M5oHNMINLwgOarAZ4NkkPQ" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="D3j1aJb8jxrOQPyTEll0MM" Name="Source" Kind="InputPin" />
               <Pin Id="LRrWmCwCRDfQOzc0KKd7Dq" Name="Destination" Kind="InputPin" />
-              <Pin Id="BzlM08un4Z4PxgBD9z6kDL" Name="Filemask" Kind="InputPin" />
+              <Pin Id="BzlM08un4Z4PxgBD9z6kDL" Name="FileMask" Kind="InputPin" />
               <Pin Id="Te4PeXrp31NLOqTS3lZ65y" Name="Recursive" Kind="InputPin" />
               <Pin Id="EUrNikhAUFwMoybo3pS09U" Name="KeepDirStr" Kind="InputPin" />
               <Pin Id="JlUgR2n3inUMGaNWQQVK2T" Name="Width" Kind="InputPin" />
@@ -5979,7 +5979,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Slot>
-          <Slot Id="A5PZP9FyMsVPQDhgc871tt" Name="Filemask">
+          <Slot Id="A5PZP9FyMsVPQDhgc871tt" Name="FileMask">
             <p:TypeAnnotation p:Type="TypeReference">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -6206,7 +6206,7 @@
           <Patch Id="Co4Jy0H1BtWOLWNnRT4E0w" Name="Create" ManuallySortedPins="true">
             <Pin Id="NPbUV4N9YoMOexue6v74NS" Name="Source" Kind="InputPin" />
             <Pin Id="U50THNRDxL6MkrkvnNaNmY" Name="Destination" Kind="InputPin" />
-            <Pin Id="Rb3iLSSdVh3MZQ0IOh3Y8n" Name="Filemask" Kind="InputPin" />
+            <Pin Id="Rb3iLSSdVh3MZQ0IOh3Y8n" Name="FileMask" Kind="InputPin" />
             <Pin Id="KppvqOtyiReL4CpvahRX9H" Name="Recursive" Kind="InputPin" />
             <Pin Id="Ug42LUQw1kBPGLy9Y7P4jD" Name="KeepDirStr" Kind="InputPin" />
             <Pin Id="JadIjLP4CCwQBjXBcgatLy" Name="Width" Kind="InputPin" />
@@ -6226,7 +6226,7 @@
           <Patch Id="I07c8uD8YmnMh5w48nmVCT" Name="Split" ManuallySortedPins="true">
             <Pin Id="PT1UsszgmY0Lxwbce6FyDE" Name="Source" Kind="OutputPin" />
             <Pin Id="Khyrf9QRlK1MgvxBzNaEvz" Name="Destination" Kind="OutputPin" />
-            <Pin Id="I2jE2cN9eHzPlPrzsvdj1g" Name="Filemask" Kind="OutputPin" />
+            <Pin Id="I2jE2cN9eHzPlPrzsvdj1g" Name="FileMask" Kind="OutputPin" />
             <Pin Id="OIa9dvlbQTTPN8sVPeYxlU" Name="Recursive" Kind="OutputPin" />
             <Pin Id="TNWSM92Cm1lP8S6CYGY2pR" Name="KeepDirStr" Kind="OutputPin" />
             <Pin Id="LM6zqgZwTo9P3rHPd0VEBk" Name="Width" Kind="OutputPin" />
@@ -6256,10 +6256,10 @@
             <Pin Id="M9B0E2ntOX2Oo237hFKhsm" Name="Destination" Kind="OutputPin" />
           </Patch>
           <Patch Id="IMoX1f5RgDfMlvnnl4NAnn" Name="SetFilemask">
-            <Pin Id="CngShHtt3fpPnX0oN6JwkZ" Name="Filemask" Kind="InputPin" />
+            <Pin Id="CngShHtt3fpPnX0oN6JwkZ" Name="FileMask" Kind="InputPin" />
           </Patch>
           <Patch Id="FVByHVxb2MuLEsxe79hvfP" Name="Filemask">
-            <Pin Id="J05pQyy6LS0O4s9loxuaXb" Name="Filemask" Kind="OutputPin" />
+            <Pin Id="J05pQyy6LS0O4s9loxuaXb" Name="FileMask" Kind="OutputPin" />
           </Patch>
           <Patch Id="GBoN57vhqFhN9PNfy4Yxg9" Name="SetFileCount" />
           <Patch Id="KycpW6ZasdVQZ8TXZKjrJT" Name="SetRecursive">
@@ -7790,7 +7790,7 @@
                         <Pin Id="NEtf8YhexDuO7UtcH49sZ2" Name="Output" Kind="StateOutputPin" />
                         <Pin Id="LSuKbQE93FZMA7q7bGX7Y1" Name="Source" Kind="OutputPin" />
                         <Pin Id="Rez5Q1GLXETOprTKb2rz4c" Name="Destination" Kind="OutputPin" />
-                        <Pin Id="G2WUpy4EKPbNNujGbEu9Om" Name="Filemask" Kind="OutputPin" />
+                        <Pin Id="G2WUpy4EKPbNNujGbEu9Om" Name="FileMask" Kind="OutputPin" />
                         <Pin Id="BdV5LgLIH72O95OWQxolcM" Name="Recursive" Kind="OutputPin" />
                         <Pin Id="OIf2Ra944eRLk74Dc5x1vg" Name="KeepDirStr" Kind="OutputPin" />
                         <Pin Id="RAsEZyOGEfML459D7Q1DPF" Name="Width" Kind="OutputPin" />
@@ -8298,7 +8298,7 @@
                         </p:NodeReference>
                         <Pin Id="JqkygJW6VCMO6XkBORFh8a" Name="Input" Kind="StateInputPin" />
                         <Pin Id="QtRUEB7U1GMLq79wq0wuDG" Name="Output" Kind="StateOutputPin" />
-                        <Pin Id="NwQxVB1jz8fLiM4qJw7REA" Name="Filemask" Kind="OutputPin" />
+                        <Pin Id="NwQxVB1jz8fLiM4qJw7REA" Name="FileMask" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="434,557,165,19" Id="LQZto3Wn1sIOxjW41FwgtF">
                         <p:NodeReference LastCategoryFullName="System.IO.Directory" LastDependency="System.Runtime.dll">
@@ -8633,7 +8633,7 @@
                           <Choice Kind="OperationCallFlag" Name="SetFilemask" />
                         </p:NodeReference>
                         <Pin Id="PVbnURu3b7OPHDZbrdi1ZS" Name="Input" Kind="StateInputPin" />
-                        <Pin Id="QWoQdbODrMLOhCE0unfTBV" Name="Filemask" Kind="InputPin" />
+                        <Pin Id="QWoQdbODrMLOhCE0unfTBV" Name="FileMask" Kind="InputPin" />
                         <Pin Id="AgrRef7CSFONG7bBzlQze8" Name="Output" Kind="StateOutputPin" />
                       </Node>
                     </Patch>
@@ -10622,7 +10622,7 @@
                         </p:NodeReference>
                         <Pin Id="VthziiufPvEPLxEe4t9mjW" Name="Input" Kind="StateInputPin" />
                         <Pin Id="HAqtz3uFQDwPSoCtgnWbKQ" Name="Output" Kind="StateOutputPin" />
-                        <Pin Id="T2SVIzHvtKUNU7CH3ZtP5r" Name="Filemask" Kind="OutputPin" />
+                        <Pin Id="T2SVIzHvtKUNU7CH3ZtP5r" Name="FileMask" Kind="OutputPin" />
                       </Node>
                       <Link Id="CdUauVvJJfbP5gkrQuDQOY" Ids="K91jhxDOPbmP4bFmkgJWx5,VthziiufPvEPLxEe4t9mjW" />
                       <Node Bounds="2833,-691,25,19" Id="QEsJNjEP1ulMLJIVGcJvol">
@@ -13544,7 +13544,7 @@
               </p:NodeReference>
               <Patch Id="Iy6WPgO9ss0NrA6fKtnLyn">
                 <Canvas Id="Og7rP5jbKbaOWBVJVBp3gl" CanvasType="Group">
-                  <Node Bounds="33,238,1558,1487" Id="BFsoDUES13rNvUNPN142sW">
+                  <Node Bounds="33,238,1572,1487" Id="BFsoDUES13rNvUNPN142sW">
                     <p:NodeReference LastCategoryFullName="ImGui.Widgets" LastDependency="VL.ImGui.vl">
                       <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="Table" />
@@ -14163,7 +14163,7 @@
                         <Pin Id="D7uPJi5L4C4MCFrieWee6x" Name="Path" Kind="InputPin" />
                         <Pin Id="Nmd0UBDhwa3OHsHNRgZaZ3" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="AWk92KshUOZLJMDvRU3nQV" Comment="" Bounds="387,678,142,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Source">
+                      <Pad Id="AWk92KshUOZLJMDvRU3nQV" Comment="" Bounds="387,678,142,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Source">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14208,7 +14208,7 @@
                         <Pin Id="Ap3w2kanQ8cNGFlf6fAUfP" Name="Path" Kind="InputPin" />
                         <Pin Id="PRSvHMXVhFIQUyjekK0euB" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="GCYDdFoGP4SOjl53wyuqgV" Comment="" Bounds="386,1086,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Destination">
+                      <Pad Id="GCYDdFoGP4SOjl53wyuqgV" Comment="" Bounds="386,1086,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Destination">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14223,7 +14223,7 @@
                         <Pin Id="UVjLMqkNS1PNx1D4IZbxYF" Name="Path" Kind="InputPin" />
                         <Pin Id="LNQtbPRTjDsOsRVEI0ybAw" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="LjaTA0TPs5NNqqUH92N8bW" Comment="" Bounds="795,1079,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.FileMask">
+                      <Pad Id="LjaTA0TPs5NNqqUH92N8bW" Comment="" Bounds="795,1079,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.FileMask">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14238,7 +14238,7 @@
                         <Pin Id="MXPadpTjnvQNfh7Ll5ZstF" Name="Path" Kind="InputPin" />
                         <Pin Id="KgcjpXupxpbLrIfxqduVPt" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="Fr9nofNjgrEPpOBVi3koqE" Comment="" Bounds="1472,1107,88,17" ShowValueBox="true" isIOBox="true" Value="Inputs.FileCountTbx">
+                      <Pad Id="Fr9nofNjgrEPpOBVi3koqE" Comment="" Bounds="1472,1107,102,18" ShowValueBox="true" isIOBox="true" Value="Inputs.FileCountTbx">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14253,7 +14253,7 @@
                         <Pin Id="GdQ6QhfFwDrP83cBUBTdO7" Name="Path" Kind="InputPin" />
                         <Pin Id="TgPJF4t8KvJQWJChFFAR2O" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="SwFHGbDn4gVQDLNV1lxLBS" Comment="" Bounds="165,1458,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Recursive">
+                      <Pad Id="SwFHGbDn4gVQDLNV1lxLBS" Comment="" Bounds="165,1458,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Recursive">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14268,7 +14268,7 @@
                         <Pin Id="KnCwO9TuV7EMenVjqMcv7U" Name="Path" Kind="InputPin" />
                         <Pin Id="LcW42ogQtfVQUw68jLNouV" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="P8DOU3KhpH7LXedgSE9rwg" Comment="" Bounds="471,1468,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.KeepDirStr">
+                      <Pad Id="P8DOU3KhpH7LXedgSE9rwg" Comment="" Bounds="471,1468,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.KeepDirStr">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -14289,7 +14289,7 @@
                       <Choice Kind="TypeFlag" Name="ImGuiTableFlags" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="HtJy0wQZhCVNV6Yl68mnS2" Comment="Column Count" Bounds="543,184,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                  <Pad Id="HtJy0wQZhCVNV6Yl68mnS2" Comment="Column Count" Bounds="551,185,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="Integer32" />
                     </p:TypeAnnotation>
@@ -14308,7 +14308,7 @@
                   <ControlPoint Id="OeG2cjrmui1QENNqxROQ38" Bounds="-150,847" />
                   <ControlPoint Id="Vxdiz8Arc5fNzoA1YDtjVD" Bounds="-152,846" />
                   <ControlPoint Id="TTdK5drHbsYLWlV0IKbptq" Bounds="-151,848" />
-                  <ControlPoint Id="TbEBt98XgfjMdShIxJX3p0" Bounds="-149,1363" />
+                  <ControlPoint Id="TbEBt98XgfjMdShIxJX3p0" Bounds="-151,1363" />
                   <!--
 
     ************************ FileMaskEntries (Internal) ************************
@@ -15487,7 +15487,7 @@
                         <Pin Id="GXJnwO9IaW9NxjJQotHYa3" Name="Path" Kind="InputPin" />
                         <Pin Id="QA7o2BRwrwPL6rtC0dcokp" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="G56MFW87dFxOiLoR5YSZwL" Comment="" Bounds="161,855,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Width">
+                      <Pad Id="G56MFW87dFxOiLoR5YSZwL" Comment="" Bounds="161,855,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Width">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -15502,7 +15502,7 @@
                         <Pin Id="KOLMxfWgqovOFywHiaM8q3" Name="Path" Kind="InputPin" />
                         <Pin Id="G3UjcQtZMOqMUuA1WgTIec" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="HWE3LDqDdeqOYpD4xxPaVw" Comment="" Bounds="497,860,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Height">
+                      <Pad Id="HWE3LDqDdeqOYpD4xxPaVw" Comment="" Bounds="497,860,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Height">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -15517,7 +15517,7 @@
                         <Pin Id="TmMjNIcrTkhQFdApy1YhF1" Name="Path" Kind="InputPin" />
                         <Pin Id="CUqcaVJbCG6Mg5FJrCXz0c" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="TdNe34guH1MP75yoGavQn6" Comment="" Bounds="837,831,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.ImageFilter">
+                      <Pad Id="TdNe34guH1MP75yoGavQn6" Comment="" Bounds="837,831,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.ImageFilter">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -15532,7 +15532,7 @@
                         <Pin Id="FNqQbvxpZqVLMKE9Ky1YKU" Name="Path" Kind="InputPin" />
                         <Pin Id="QJpdSvk7Z3DNgOfyBGH4Se" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="LcgAN8EA0SUOiEDNre6sRg" Comment="" Bounds="1194,829,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.AddressingMode">
+                      <Pad Id="LcgAN8EA0SUOiEDNre6sRg" Comment="" Bounds="1194,829,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.AddressingMode">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -16040,11 +16040,6 @@
                           <Pin Id="MP7PUWB6vCKMq2OHeUdm52" Name="Max Value" Kind="OutputPin" />
                         </Node>
                       </Canvas>
-                      <!--
-
-    ************************  ************************
-
--->
                       <ProcessDefinition Id="JS4DihbPc4tNyjR56RhHAp">
                         <Fragment Id="O04mYgHYWeBPMzJQaVFGiG" Patch="Cw7hplBjXHaQRt0wowsy8r" Enabled="true" />
                         <Fragment Id="UNjEIhiFqPkMlF3tDLggDM" Patch="S2MkP80e9LZLw046XgOjRA" Enabled="true" />
@@ -16380,7 +16375,7 @@
                         <Pin Id="D3iSqdfsu2IL4zV243l07D" Name="Path" Kind="InputPin" />
                         <Pin Id="Elo913xZOYeL4nVj3VMr4B" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="KvlEB5qFQSSNVbOIg9NeVs" Comment="" Bounds="161,677,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.POW">
+                      <Pad Id="KvlEB5qFQSSNVbOIg9NeVs" Comment="" Bounds="161,677,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.POW">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -16395,7 +16390,7 @@
                         <Pin Id="H8HFrRiO3npP2pTmmrDjN0" Name="Path" Kind="InputPin" />
                         <Pin Id="NGmro6iNm0lLTuBLmaVo0q" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="Exiz7i10advP43ptSQXLV0" Comment="" Bounds="465,680,195,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.PremultiplyAlpha">
+                      <Pad Id="Exiz7i10advP43ptSQXLV0" Comment="" Bounds="465,680,195,15" ShowValueBox="true" isIOBox="true" Value="Parameters.PremultiplyAlpha">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -16410,7 +16405,7 @@
                         <Pin Id="SljHGs3cDhyO1fBWrwwKhp" Name="Path" Kind="InputPin" />
                         <Pin Id="DUFWpZpa6rPLKDg63nTyz7" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="VG12g7qygAcOJ7elwLywxa" Comment="" Bounds="770,684,177,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.StraightAlpha">
+                      <Pad Id="VG12g7qygAcOJ7elwLywxa" Comment="" Bounds="770,684,177,15" ShowValueBox="true" isIOBox="true" Value="Parameters.StraightAlpha">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -16816,7 +16811,7 @@
                     <Pin Id="G1gqnhjtsZkMKn1h7W1xAA" Name="Path" Kind="InputPin" />
                     <Pin Id="OPFpYPpHdYSOpPC4uVcuOj" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="H9CSwF0hjpvLmv420q9I2x" Comment="" Bounds="160,637,165,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.Dither">
+                  <Pad Id="H9CSwF0hjpvLmv420q9I2x" Comment="" Bounds="160,637,165,15" ShowValueBox="true" isIOBox="true" Value="Parameters.Dither">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -16833,7 +16828,7 @@
                     <Pin Id="KpLar0wgwFQO9opeD3VzuU" Name="Path" Kind="InputPin" />
                     <Pin Id="VqlMuqLOG0YQI68lEGrbHQ" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="EpK47X2aguwLkvnGBEluyj" Comment="" Bounds="464,630,190,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.UniformWeight">
+                  <Pad Id="EpK47X2aguwLkvnGBEluyj" Comment="" Bounds="464,630,190,15" ShowValueBox="true" isIOBox="true" Value="Parameters.UniformWeight">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -16848,7 +16843,7 @@
                     <Pin Id="PMrRZ9CoQxpQIAPRKHkW7v" Name="Path" Kind="InputPin" />
                     <Pin Id="TsS6OaijnFsOryUCQU05AD" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="EVivQWG1FLRMF5WKemcVdM" Comment="" Bounds="769,633,190,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.MinCompress">
+                  <Pad Id="EVivQWG1FLRMF5WKemcVdM" Comment="" Bounds="769,633,190,15" ShowValueBox="true" isIOBox="true" Value="Parameters.MinCompress">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -16863,7 +16858,7 @@
                     <Pin Id="IhRhnX7iTg9QWFEMhQMr6b" Name="Path" Kind="InputPin" />
                     <Pin Id="LKpN4jdiI25MwQmWSG4zmd" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="PrWIwv92yuUNKuVzEZy4iN" Comment="" Bounds="1109,632,190,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.MaxCompress">
+                  <Pad Id="PrWIwv92yuUNKuVzEZy4iN" Comment="" Bounds="1109,632,190,15" ShowValueBox="true" isIOBox="true" Value="Parameters.MaxCompress">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -17259,7 +17254,7 @@
                     <Pin Id="I2PHKdRGI5YPXdjeREmSkc" Name="Path" Kind="InputPin" />
                     <Pin Id="HGTnu7S9dc6MVzbIOJtUEl" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="JSess3MRruhLZLz8tMFPd6" Comment="" Bounds="160,907,176,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.OutputFormat">
+                  <Pad Id="JSess3MRruhLZLz8tMFPd6" Comment="" Bounds="160,907,176,15" ShowValueBox="true" isIOBox="true" Value="Parameters.OutputFormat">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -17275,7 +17270,7 @@
                     <Pin Id="TrTssoJlwIpQYG9dwplosc" Name="Path" Kind="InputPin" />
                     <Pin Id="STc7MFrftg3QAV44K1QWcG" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="TMfhlaTDPnHOZANInFHwza" Comment="" Bounds="533,912,176,15" ShowValueBox="true" isIOBox="true" Value="ConversionParameters.MipMap">
+                  <Pad Id="TMfhlaTDPnHOZANInFHwza" Comment="" Bounds="533,912,176,15" ShowValueBox="true" isIOBox="true" Value="Parameters.MipMap">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -17763,12 +17758,12 @@
                       <Choice Kind="TypeFlag" Name="ImGuiTableFlags" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="TEZHS6TTBxHNY0ChZXd0l2" Comment="Column Count" Bounds="330,193,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                  <Pad Id="TEZHS6TTBxHNY0ChZXd0l2" Comment="Column Count" Bounds="353,197,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="Integer32" />
                     </p:TypeAnnotation>
                   </Pad>
-                  <Pad Id="Ft8hgodK8iVOUbduYWgGrg" Comment="Label" Bounds="211,160,141,15" ShowValueBox="true" isIOBox="true" Value="##ProcessingContainer">
+                  <Pad Id="Ft8hgodK8iVOUbduYWgGrg" Comment="Label" Bounds="219,161,141,15" ShowValueBox="true" isIOBox="true" Value="##ProcessingContainer">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
