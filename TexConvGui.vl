@@ -12446,7 +12446,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="62, 61, 608, 696" />
+            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="60, 58, 608, 696" />
             <Pin Id="RboTZth4yhNObn0p1rTwuD" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="V6S0ET78D5AMWHYu7pI3PY" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="O57jkNxDJ7DMvPX1hfdUYH" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -12561,5 +12561,5 @@
   <PlatformDependency Id="Lt4esJOezfqOILGApGpXQ5" Location="System.Diagnostics.Process" />
   <PlatformDependency Id="AlkZTsO1kf8OoinPZgW0Rz" Location="System.Runtime" />
   <NugetDependency Id="MZ7OuEJTeP4ODp6DVAqfgC" Location="VL.ImGui.Skia" Version="2023.5.3-0294-g08cfc6dc6d" />
-  <ProjectDependency Id="POGkOdK8MvWLucqhPb0gLj" Location="./src/TexConvGuiHelper.csproj" />
+  <PlatformDependency Id="VAz2YU20bCmNZ63PZe0Ryw" Location="./lib/net6.0-windows/TexConvGuiHelper.dll" />
 </Document>
