@@ -9,6 +9,8 @@
             dds,
             exr,
             hdr,
+            heic,
+            heif,
             jpg,
             jpeg,
             png,
