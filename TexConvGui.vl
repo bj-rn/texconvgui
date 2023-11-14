@@ -4022,7 +4022,7 @@
                         <Pin Id="DEuAd5tTnaNQJUFn5oBAcU" Name="Output" Kind="StateOutputPin" />
                         <Pin Id="QDpUyAeRCrDLmFVUNO1jOi" Name="Pow" Kind="OutputPin" />
                       </Node>
-                      <Node Bounds="847,-608,88,61" Id="V2XhLAr2ULOLkxD78EU0kh">
+                      <Node Bounds="847,-608,100,61" Id="V2XhLAr2ULOLkxD78EU0kh">
                         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                           <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                           <Choice Kind="ApplicationStatefulRegion" Name="If" />
@@ -4034,7 +4034,7 @@
                         <Patch Id="IjvkUbYhPg1NKJ9lV0RoGM" ManuallySortedPins="true">
                           <Patch Id="NiOrRMeC4NxQLxaazW6Woy" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="Qtqk5v36Wk1M96A4FHU7UQ" Name="Then" ManuallySortedPins="true" />
-                          <Pad Id="VvQAqPrvoX2M44MdbTAzHG" Comment="" Bounds="863,-575,41,15" ShowValueBox="true" isIOBox="true" Value=" -pow ">
+                          <Pad Id="VvQAqPrvoX2M44MdbTAzHG" Comment="" Bounds="863,-575,53,15" ShowValueBox="true" isIOBox="true" Value=" -pow2">
                             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                               <Choice Kind="ImmutableTypeFlag" Name="String" />
                               <FullNameCategoryReference ID="Primitive" />
@@ -12446,7 +12446,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="463, 61, 608, 696" />
+            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="62, 61, 608, 696" />
             <Pin Id="RboTZth4yhNObn0p1rTwuD" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="V6S0ET78D5AMWHYu7pI3PY" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="O57jkNxDJ7DMvPX1hfdUYH" Name="Node Context" Kind="InputPin" IsHidden="true" />
