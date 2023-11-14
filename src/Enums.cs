@@ -107,11 +107,12 @@
             A4B4G4R4_UNORM,
 
             // Special Formats
-            FORMAT_DXT5_NM, // BC3n or DXT5nm
-            FORMAT_DXT5_RXGB,
+            BC3n, // FORMAT_DXT5_NM
+            DXT5nm, // FORMAT_DXT5_NM
+            RXGB, //FORMAT_DXT5_RXGB
 
 
-            DXGI_FORMAT_UNKNOWN
+            //DXGI_FORMAT_UNKNOWN
         }
 
 
