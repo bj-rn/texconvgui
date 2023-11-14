@@ -7,7 +7,7 @@
     <VLTargetOS>Windows</VLTargetOS>
     <ApplicationIcon>$(MsBuildThisFileDirectory)Icon.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <TargetFramework>net6.0-windows</TargetFramework>
   </PropertyGroup>
 </Project>
