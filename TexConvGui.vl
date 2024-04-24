@@ -12565,5 +12565,5 @@
   <PlatformDependency Id="Lt4esJOezfqOILGApGpXQ5" Location="System.Diagnostics.Process" />
   <PlatformDependency Id="AlkZTsO1kf8OoinPZgW0Rz" Location="System.Runtime" />
   <NugetDependency Id="MZ7OuEJTeP4ODp6DVAqfgC" Location="VL.ImGui.Skia" Version="2024.6.2" />
-  <PlatformDependency Id="VAz2YU20bCmNZ63PZe0Ryw" Location="./lib/net6.0-windows/TexConvGuiHelper.dll" />
+  <PlatformDependency Id="TCdVDfiKmOiNGHoUZSWZQo" Location="./lib/net8.0-windows7.0/TexConvGuiHelper.dll" />
 </Document>

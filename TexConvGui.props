@@ -5,9 +5,9 @@
     <VLCleanBuildDirectory>True</VLCleanBuildDirectory>
     <VLExportPath>$(MsBuildThisFileDirectory)..\..\Tmp\tcg3</VLExportPath>
     <VLTargetOS>Windows</VLTargetOS>
-    <ApplicationIcon>$(MsBuildThisFileDirectory)Icon.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
-    <PlatformTarget>x64</PlatformTarget>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ApplicationIcon>$(MsBuildThisFileDirectory)Icon.ico</ApplicationIcon>
   </PropertyGroup>
 </Project>
