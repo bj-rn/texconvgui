@@ -13258,7 +13258,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="784, 353, 584, 718" />
+            <Pin Id="RsOmfLzfdVsMvPfvDGeJ36" Name="Bounds" Kind="InputPin" DefaultValue="784, 352, 584, 718" />
             <Pin Id="RboTZth4yhNObn0p1rTwuD" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="V6S0ET78D5AMWHYu7pI3PY" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="O57jkNxDJ7DMvPX1hfdUYH" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -13278,7 +13278,7 @@
             <Pin Id="KWNkY224SyEQTQRbK6xoHF" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="JcSnyRugkxYNOBlzmVztqf" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="161,473,77,19" Id="TnzNV4kcueoPltkG8nxpUg">
+          <Node Bounds="168,470,77,19" Id="TnzNV4kcueoPltkG8nxpUg">
             <p:NodeReference LastCategoryFullName="TexConvGui.Utils" LastDependency="TexConvGui.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WindowSetup" />
