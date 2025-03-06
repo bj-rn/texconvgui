@@ -8,7 +8,8 @@
         public const string Destination = "[-o] Output directory";
         public const string Recursive = "[-r]  If this switch is used, subdirectories are also searched.\nDefault is -r:flatten: The resulting output directory just includes the files";
         public const string KeepDirStruct = "[-r:keep ] If this switch is used, the output directory includes the subdirectory structure of the source tree.";
-
+        public const string Range = "If it is set, only a part of the image files will be converted.\nCan only be used if Recursive is off and the File Count is greater than 1.\ne.g. 0-100 will convert the first 101 files.";
+        
         public const string Width = "[-w] Width of the output texture in pixels.\n 0 = use original Size.";
         public const string Height = "[-h] Height of the output texture in pixels.\n 0 = use original Size.";
         public const string ImageFilter = "[-if] The image filter used for resizing.\n Filters with DITHER in their name indicate that the 4x4 ordered dither algorithm, while DITHER_DIFFUSION is error diffusion dithering.";
