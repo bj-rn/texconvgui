@@ -10,8 +10,8 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <ApplicationIcon>$(MsBuildThisFileDirectory)Icon.ico</ApplicationIcon>
     <PublishSingleFile>true</PublishSingleFile>
-    <VersionPrefix>2.3</VersionPrefix>
-    <FileVersion>2.3.0.0</FileVersion>
-    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <VersionPrefix>2.3.1</VersionPrefix>
+    <FileVersion>2.3.1.0</FileVersion>
+    <AssemblyVersion>2.3.1.0</AssemblyVersion>
   </PropertyGroup>
 </Project>
