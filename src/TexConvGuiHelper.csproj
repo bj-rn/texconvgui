@@ -3,7 +3,6 @@
   <PropertyGroup>
       <TargetFramework>net8.0-windows7.0</TargetFramework>
       <LangVersion>latest</LangVersion>
-      <OutputPath>..\lib</OutputPath>
       <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
       <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
       <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
