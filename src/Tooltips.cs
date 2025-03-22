@@ -8,7 +8,7 @@
         public const string Destination = "[-o] Output directory";
         public const string Recursive = "[-r]  If this switch is used, subdirectories are also searched.\nDefault is -r:flatten: The resulting output directory just includes the files";
         public const string KeepDirStruct = "[-r:keep ] If this switch is used, the output directory includes the subdirectory structure of the source tree.";
-        public const string Range = "If it is set, only a part of the image files will be converted.\nCan only be used if Recursive is off and the File Count is greater than 1.\ne.g. 0-100 will convert the first 101 files.";
+        public const string Range = "If it is set, only a part of the image files will be converted.\nCan only be used if Recursive is off and the File Count is greater than 1.\ne.g. 0-100 will convert the first 101 files.\n\nWhen used TexConv is given a list of files as parameter instead of a directory.\nIf this list of files gets too long it will cause an error.";
         
         public const string Width = "[-w] Width of the output texture in pixels.\n 0 = use original Size.";
         public const string Height = "[-h] Height of the output texture in pixels.\n 0 = use original Size.";
