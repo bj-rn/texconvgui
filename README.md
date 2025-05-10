@@ -16,4 +16,4 @@ _Just a simple Gui for [Microsoft's Texconv](https://github.com/Microsoft/Direct
 
 ### [MIT](https://github.com/bj-rn/texconvgui/blob/master/LICENSE)
 ---
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q61EQB8X)
+[Support me on Ko-fi](https://ko-fi.com/Q5Q61EQB8X)
